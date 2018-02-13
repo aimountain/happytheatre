@@ -265,9 +265,9 @@ function HappyTheatre(){
 }
 
 HappyTheatre.prototype.start = function() {
-  //this.background.start();
-  //this.star.start();
-  this.flame.start();
+  this.background.start();
+  this.star.start();
+  //this.flame.start();
 }
 
 happyTheatre = new HappyTheatre();
